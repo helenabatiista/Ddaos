@@ -7,6 +7,7 @@ Nesse projeto vamos fazer um uma análise temporal e vamos criar um aplicativo m
 1. Qual é a temperatura mais baixa de cada um dos Bouys? 
 
 
+
 MÊS	TEMPERATURA MENOR	TEMPERATURA MAIOR
 agosto	14.3	16.75
 setembro	14.4	16.65
