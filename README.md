@@ -1,9 +1,10 @@
 # Ddaos
 Dados do Ireland's Digital Ocean Institute
 
+Nesse projeto vamos fazer um uma análise temporal e vamos criar um aplicativo mostrando um gráfico de previsão e usando um Touch Bar lateral para que o usuário possa prever varias possibilidades de previsão de acordo com os dados da tabela .
+
 
 1. Qual é a temperatura mais baixa de cada um dos Bouys? 
-a.Em que mês geralmente ocorre? JANEIRO 
 
 
 MÊS	TEMPERATURA MENOR	TEMPERATURA MAIOR
@@ -20,6 +21,9 @@ maio	10.5	12.85
 junho	10.55	13.9
 julho	12.4	17.4
 agosto	15.4	16.95
+
+a.Em que mês geralmente ocorre? com base na maior e na meior temperatura e o melhor mes JANEIRO 
+
 
 
 Onde (lat/long) temos o maior nível de água? Não entendi 
