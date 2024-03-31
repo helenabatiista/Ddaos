@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String linha;
+        while (!(linha = scanner.nextLine()).equals("FIM")) {
+            boolean palindromo = verificaPalindromo(linha);
+            System.out.println(palindromo ? "SIM" : "NAO");
+        }
+        scanner.close();
+    }
+
+    public static boolean verificaPalindromo(String str) {
+        str = str.replaceAll("[^a-zA-Z]", "").toLowerCase();
+        int inicio = 0;
+        int fim = str.length() - 1;
+        while (inicio < fim) {
+            if (str.charAt(inicio) != str.charAt(fim)) {
+                return false;
+            }
+            inicio++;
+            fim--;
+        }
+        return true;
+    }
+}
